@@ -4,6 +4,8 @@
     <PartOne style="margin-top: 85px"></PartOne>
     <PartTwo></PartTwo>
     <PartThree></PartThree>
+    <PartFour></PartFour>
+    <PartSix></PartSix>
   </div>
 </template>
 
@@ -13,6 +15,8 @@ import Header from "@/components/header";
 import PartOne from "@/components/partOne";
 import PartTwo from "@/components/PartTwo";
 import PartThree from "@/components/partThree";
+import PartFour from "@/components/partFour";
+import PartSix from "@/components/partSix";
 export default {
   name: 'App',
   components: {
@@ -20,6 +24,8 @@ export default {
     PartOne,
     PartTwo,
     PartThree,
+    PartFour,
+    PartSix
   }
 }
 </script>

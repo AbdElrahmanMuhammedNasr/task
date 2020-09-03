@@ -7,6 +7,7 @@
       <section class="row" v-for="challenge in challenges " :key="challenge.id">
         <div class="col-sm-5">
           <img :src="challenge.image">
+<!--          <img src="../assets/image-2.png">-->
         </div>
 
         <div class="col-sm-5 " style="margin: 2% 0px">
@@ -24,7 +25,7 @@
 
 
     <section class="col-sm-4" >
-      <img src="https://images.unsplash.com/photo-1556048219-bb6978360b84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60">
+      <img src="../assets/img_shoes.png">
         <h3 style="font-weight: bolder ; margin: 20px 0px ;font-family: 'Bebas Neue'; letter-spacing: 2px">Mission</h3>
 
       <p style="font-weight: bolder ;">
@@ -54,19 +55,19 @@ export default {
       challenges : [
         {
           id:1,
-          image :  "https://images.unsplash.com/photo-1552571219-d6e38a3f4849?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+          image :  require('../assets/image-one.png'),
           name:"Fire Making",
           details: ' commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.'
         },
         {
           id:2,
-          image :  "https://images.unsplash.com/photo-1552931668-b6fedfb82b1a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+          image :  require('../assets/image-2.png'),
           name:"Make Your Own Shelter",
           details: ' commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.'
         },
         {
           id:3,
-          image :  "https://images.unsplash.com/photo-1551207004-3e38b4f52ba6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60",
+          image :  require('../assets/image-3.png'),
           name:"Prepare a Meal",
           details: ' commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.'
         }

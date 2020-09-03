@@ -26,7 +26,9 @@
       </section>
     
     
-      <section class="col-sm-7">
+      <section class="col-sm-7 row">
+        <img  src="../assets/ico_arrow up big white.png" style="width: 150px; height: 150px; transform: rotate(90deg); margin-top: 70%">
+
         <div >
           <h3 style="font-size: 80px;font-family: 'Bebas Neue'">SHERE YOUR RESULT ON SOCIAL MEDIA</h3>
 
@@ -41,6 +43,8 @@
          </span>
 
         </div>
+
+
 
 
       </section>
@@ -67,7 +71,7 @@ name: "PartThree"
 }
 /**********************************************************/
 .Main section:nth-child(2){
-  background-image: url("https://images.unsplash.com/photo-1473625247510-8ceb1760943f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60");
+  background-image: url("../assets/img-section2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-radius: 5px;

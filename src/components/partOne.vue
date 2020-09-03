@@ -1,3 +1,4 @@
+
 <template>
   <div class="row">
     <section class="col-sm-3  row ">
@@ -31,7 +32,7 @@
 
 
     <section class="col-sm-8">
-      <img src="https://images.unsplash.com/photo-1491555103944-7c647fd857e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+      <img src="../assets/slider-image.png">
     </section>
 
     <section class="col-sm-1  align-self-center">
@@ -39,7 +40,6 @@
         <li class="col-sm-12">01</li>
         <li class="col-sm-12">02</li>
         <li class="col-sm-12">03</li>
-
       </ul>
 
     </section>
@@ -48,6 +48,7 @@
 </template>
 
 <script>
+
 export default {
 name: "partOne"
 }
@@ -127,7 +128,7 @@ name: "partOne"
 
   section:last-child ul li:first-child{
     font-size: 4rem;
-    border-bottom:3px solid yellow;
+    border-bottom:3px solid red;
 
   }
 
