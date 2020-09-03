@@ -2,11 +2,11 @@
   <div class="row">
     <section class="col-sm-3  row ">
 
-      <div>
+      <div class="col-sm-8; float:left">
         <p >Find out if you can</p>
       </div>
 
-      <div >
+      <div class="col-sm-2 ; float-right">
         <h1>SU</h1>
         <h1>RVI</h1>
         <h1>VE</h1>
@@ -39,6 +39,7 @@
         <li class="col-sm-12">01</li>
         <li class="col-sm-12">02</li>
         <li class="col-sm-12">03</li>
+
       </ul>
 
     </section>
@@ -55,7 +56,7 @@ name: "partOne"
 <style scoped>
   section:first-child{
     padding: 0px 2%;
-    height: 20vh;
+    height: auto;
 
   }
   section:first-child  div:first-child{
@@ -66,17 +67,19 @@ name: "partOne"
 
   }
   section:first-child  div:first-child p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
   }
   section:first-child div:nth-child(2){
     margin-top: 20% ;
     height: 200px;
+
   }
   section:first-child div:nth-child(2) h1{
     color: red;
     font-weight: bolder;
     font-size: 5rem;
+
   }
   section:first-child div:nth-child(3){
     float: right;
@@ -108,20 +111,23 @@ name: "partOne"
   }
 
   section:last-child ul {
-    margin-top: auto;
-    margin-bottom: auto;
+    float: left;
+    padding: 20px;
+    /*background-color: #d80f0f;*/
+
   }
   section:last-child ul li{
     font-family: 'Bebas Neue';
     font-weight: bolder;
-    font-size: 2rem;
+    font-size: 1.5rem;
     list-style-type: none;
-    float: right;
+    /*background-color: green;*/
+
   }
 
   section:last-child ul li:first-child{
     font-size: 4rem;
-    border-bottom:1px solid red;
+    border-bottom:3px solid yellow;
 
   }
 

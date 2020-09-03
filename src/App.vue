@@ -1,5 +1,5 @@
 <template>
-  <div id="app" style="width: 100%; margin: auto" >
+  <div id="app" style="overflow: hidden" >
     <Header></Header>
     <PartOne></PartOne>
     <PartTwo></PartTwo>
@@ -26,10 +26,12 @@ export default {
 
 <style>
 #app {
-  width: 100vw;
-  background-color: #d4f4f4;
+  background-color: #d8efef;
   padding: 0px;
   margin: 0px;
 
+}
+::-webkit-scrollbar{
+  display: none;
 }
 </style>

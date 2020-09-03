@@ -70,8 +70,11 @@ name: "PartThree"
   background-image: url("https://images.unsplash.com/photo-1473625247510-8ceb1760943f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  border-radius: 5px;
+  overflow: hidden;
 }
 .Main section:nth-child(2) div{
+  text-align: center;
   color: white;
   width: 60%;
   margin: 10% auto;
