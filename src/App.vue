@@ -1,7 +1,7 @@
 <template>
   <div id="app" style="overflow: hidden" >
-    <Header></Header>
-    <PartOne></PartOne>
+    <Header style="position: fixed; z-index: 1000; width: 100%;    "></Header>
+    <PartOne style="margin-top: 85px"></PartOne>
     <PartTwo></PartTwo>
     <PartThree></PartThree>
   </div>

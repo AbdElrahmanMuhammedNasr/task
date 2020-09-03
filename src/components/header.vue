@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-light">
+  <div id="theNav">
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #c2efe7">
       <a class="navbar-brand  ml-5" href="#">Adventure</a>
 
       <div class="collapse navbar-collapse" >
@@ -43,8 +43,11 @@
 </template>
 
 <script>
+
 export default {
-name: "header"
+
+
+
 }
 </script>
 
