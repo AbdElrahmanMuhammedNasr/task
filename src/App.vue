@@ -1,5 +1,5 @@
 <template>
-  <div id="app" >
+  <div id="app" style="width: 100%; margin: auto" >
     <Header></Header>
     <PartOne></PartOne>
     <PartTwo></PartTwo>

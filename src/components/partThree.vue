@@ -67,7 +67,7 @@ name: "PartThree"
 }
 /**********************************************************/
 .Main section:nth-child(2){
-  background-image: url("https://images.unsplash.com/photo-1474376962954-d8a681cc53b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60");
+  background-image: url("https://images.unsplash.com/photo-1473625247510-8ceb1760943f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
