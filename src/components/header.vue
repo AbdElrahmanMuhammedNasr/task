@@ -1,0 +1,79 @@
+<template>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand  ml-5" href="#">Adventure</a>
+
+      <div class="collapse navbar-collapse" >
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active ml-3">
+            <a class="nav-link" href="#">OUR COMPETITORS</a>
+          </li>
+
+          <li class="nav-item active ml-3">
+            <a class="nav-link" href="#">FOR PROFESSIONALS</a>
+          </li>
+
+          <li class="nav-item active ml-3">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+
+          <li class="nav-item active ml-3">
+            <a class="nav-link" href="#"> | ENG</a>
+          </li>
+
+          <li class="nav-item active ml-3">
+            <a class="nav-link" href="#">
+              <span class="fa fa-user-circle-o"> </span>
+            </a>
+          </li>
+
+          <li class="nav-item Search ml-4 mr-4" >
+            <a class="nav-link" href="#">
+              <span class="fa fa-search"> </span>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </nav>
+  </div>
+</template>
+
+<script>
+export default {
+name: "header"
+}
+</script>
+
+<style scoped>
+
+    a{
+      font-family: 'Pacifico';
+      font-size: 2rem;
+    }
+
+    ul li a{
+      font-size: 1rem;
+      font-family: monospace;
+      font-weight: bold;
+
+    }
+    span{
+      font-size: 20px;
+    }
+    .Search {
+      background-color: #d80f0f;
+      border-radius:50% ;
+    }
+    .Search a span{
+      color: white;
+      font-size: 20px;
+
+
+    }
+
+
+</style>
