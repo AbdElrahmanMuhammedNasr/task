@@ -1,11 +1,11 @@
 <template>
     <div class="row Main">
-      <section class="col-sm-3   " style="text-align: center" >
+      <section class="col-md-3 col-sm-12  " style="text-align: center" >
               <img  src="../assets/logo.png">
       </section>
-      <section class="col-sm-3   " style="text-align: center" >
+      <section class="col-md-3  col-sm-12 " style="text-align: center" >
         <ul class="row">
-          <li class="col-sm-12" style="color: red;font-size: 3rem ;font-weight: bolder; font-family: 'Bebas Neue'">CHALLENGE</li>
+          <li class="col-sm-12" style="color: #E4003B;font-size: 3rem ;font-weight: bolder; font-family: 'Bebas Neue'">CHALLENGE</li>
           <li class="col-sm-12">Endurance</li>
           <li class="col-sm-12">Survival</li>
           <li class="col-sm-12">Key skills</li>
@@ -14,9 +14,9 @@
         </ul>
       </section>
 
-      <section class="col-sm-3   " style="text-align: center" >
+      <section class="col-md-3 col-sm-12  " style="text-align: center" >
         <ul class="row">
-          <li class="col-sm-12" style="color: red;font-size: 3rem ;font-weight: bolder; font-family: 'Bebas Neue'">CHALLENGE</li>
+          <li class="col-sm-12" style="color: #E4003B;font-size: 3rem ;font-weight: bolder; font-family: 'Bebas Neue'">CHALLENGE</li>
           <li class="col-sm-12">Endurance</li>
           <li class="col-sm-12">Survival</li>
           <li class="col-sm-12">Key skills</li>
@@ -25,9 +25,9 @@
         </ul>
       </section>
 
-      <section class="col-sm-3   " style="text-align: center" >
+      <section class="col-md-3 col-sm-12  " style="text-align: center" >
         <ul class="row">
-          <li class="col-sm-12" style="color: red;font-size: 3rem ;font-weight: bolder; font-family: 'Bebas Neue'">CHALLENGE</li>
+          <li class="col-sm-12" style="color: #E4003B;font-size: 3rem ;font-weight: bolder; font-family: 'Bebas Neue'">CHALLENGE</li>
           <li class="col-sm-12">Endurance</li>
           <li class="col-sm-12">Survival</li>
         </ul>

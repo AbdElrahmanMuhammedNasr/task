@@ -5,17 +5,16 @@
     <section class="col-sm-8 row" >
 
       <section class="row" v-for="challenge in challenges " :key="challenge.id">
-        <div class="col-sm-5">
+        <div class="col-sm-6">
           <img :src="challenge.image">
-<!--          <img src="../assets/image-2.png">-->
         </div>
 
         <div class="col-sm-5 " style="margin: 2% 0px">
-          <p style="color: red; font-weight: bold">Key Skills</p>
+          <p style="color: #E4003B; font-weight: bold">Key Skills</p>
           <h3 style="font-weight: bold ; font-family: 'Bebas Neue';letter-spacing: 2px">{{challenge.name}}</h3>
           <p class="text-muted">{{challenge.details}}</p>
           <span>
-                <span class="fa fa-close" style="color: red; font-size: 30px"></span>
+                <span class="fa fa-close" style="color: #E4003B; font-size: 30px"></span>
                 <span style="font-weight: bolder"> FIND OUT MORE</span>
               </span>
         </div>
@@ -40,7 +39,7 @@
         </p>
 
         <span>
-            <span class="fa fa-close" style="color: red; font-size: 40px"></span>
+            <span class="fa fa-close" style="color: #E4003B; font-size: 40px"></span>
             <span style="font-weight: bolder"> FIND OUT MORE</span>
          </span>
     </section>
@@ -93,8 +92,8 @@ export default {
 
 }
 .Main section:nth-child(2) section div:first-child img{
-  width: 400px;
-  height: 300px;
+  width: 25vw;
+  height: 30vh;
   margin-bottom: 20px;
   box-shadow: 0px 0px 20px gray;
   border-radius:5px ;

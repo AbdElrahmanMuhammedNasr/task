@@ -35,7 +35,7 @@ export default {
 
 <style>
 #app {
-  background-color: #d8efef;
+  background-color: #EDF0F2;
   padding: 0px;
   margin: 0px;
 

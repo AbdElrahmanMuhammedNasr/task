@@ -9,16 +9,16 @@
              font-weight: bold;
               margin: auto">COMPLETE CHALLENGE</p>
 
-            <h1 style="font-family: 'Teko' ; font-size: 15rem; color: red; margin-bottom: -20%">13</h1>
+            <h1 style="font-family: 'Teko' ; font-size: 15rem; color: #E4003B; margin-bottom: -20%">13</h1>
 
           <p style="font-size: 60px;font-family: 'Teko'; font-weight: bolder">
             You Have
-            <br/><span style="color: red ;font-family: 'Bebas Neue'">78%</span> chance  <br/>
+            <br/><span style="color: #E4003B ;font-family: 'Bebas Neue'">78%</span> chance  <br/>
             for survival
 
           </p>
           <span>
-            <span class="fa fa-close" style="color: red; font-size: 40px"></span>
+            <span class="fa fa-close" style="color: #E4003B; font-size: 40px"></span>
             <span style="font-weight: bolder"> SEE MORE </span>
          </span>
         </div>
@@ -39,7 +39,7 @@
           </p>
 
           <span>
-            <span class="fa fa-close" style="color: red; font-size: 40px"></span>
+            <span class="fa fa-close" style="color: #E4003B; font-size: 40px"></span>
             <span style=""> SEE RESULT FROM YOUR FRIENDS </span>
          </span>
 
@@ -64,7 +64,7 @@ name: "PartThree"
   margin: 10% auto;
 }
 .Main section:first-child{
-  /*background-color: red;*/
+  /*background-color: #E4003B;*/
 }
 .Main section:first-child div{
   width: 60%;
@@ -87,7 +87,7 @@ name: "PartThree"
   width: 60%;
   margin: 10% auto;
   padding: 50px;
-  border: 20px solid red;
+  border: 20px solid #E4003B;
 
 }
 

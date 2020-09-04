@@ -5,33 +5,36 @@
       </section>
       <section class="Image col-sm-10" style="overflow: hidden" >
 
-        <div class="row"  style="  width: 10%;  float: right; ">
-          <div style="background-color: #d8efef;padding: 30px 30px; font-family: 'Teko';position: relative; right: -20%">
-            <h1 class="d-inline p-2" style="border-bottom: 2px solid red; ">01</h1>
+          <div style="background-color: #EDF0F2;padding: 30px 30px; font-family: 'Teko'; position:absolute; top:0; right: 0 ">
+            <h1 class="d-inline p-2" style="border-bottom: 2px solid #E4003B; ">01</h1>
             <h1 style="margin: 20px"></h1>
             <h3 class="d-inline p-2" >03</h3>
           </div>
 
+        <section class="row justify-content-between" style="background-color: red">
 
-          <div style="position: relative;margin-top: 32vh; right: -50% ">
-            <img class="d-inline p2 "  src="../assets/ico_arrow_white_left.png" style="background-color: red; padding: 20px">
-            <br>
-            <img class="d-inline p2"  src="../assets/ico_arrow_black_right.png" style="background-color: white;padding: 20px">
-          </div>
-        </div>
-        
-
-          <div  style="background-color: #d8efef; width: 25vw; padding: 30px;position: relative; top: 65%; left: -20px  ">
+          <div  style="background-color: #EDF0F2; width: 25vw; height: 22vh; padding: 30px;position:absolute; bottom:0; left: 0  ">
             <h1  style="font-weight: bolder; font-family: 'Teko'; letter-spacing: 10px">SURVIVAL MODE</h1>
             <p style="font-size: 15px;" >
               commodo vitae, ornare sit amet, wisi. Aenean fermentum,
               elit eget tincidunt condimentum, eros ipsum rutrum orci,
             </p>
             <span>
-              <span class="fa fa-close" style="color: red; font-size: 40px"></span>
+              <span class="fa fa-close" style="color: #E4003B; font-size: 40px"></span>
                 <span style=""> MORE </span>
              </span>
           </div>
+
+          <div style="position:absolute; bottom:0; right: 0" >
+            <img class="d-inline p2 "  src="../assets/ico_arrow_white_left.png" style="background-color: #E4003B; padding: 20px">
+            <br>
+            <img class="d-inline p2"  src="../assets/ico_arrow_black_right.png" style="background-color: white;padding: 20px">
+          </div>
+
+
+        </section>
+
+
 
 
 
@@ -57,7 +60,7 @@ name: "PartFour"
   height: 20px;
 }
 .Main .Title h1 {
-  color: red;
+  color: #E4003B;
   font-weight: bolder;
   font-size: 5rem;
   font-family: 'Bebas Neue';

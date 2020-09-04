@@ -3,29 +3,29 @@
   <div class="row">
     <section class="col-sm-3  row ">
 
-      <div class="col-sm-8; float:left" style="">
+      <div class="col-sm-8; align-self-center" style="">
         <p >Find out if you can</p>
       </div>
 
-      <div class="col-sm-2 ; float-right" style="margin-left: -20%">
+      <div class="col-sm-2 ; align-self-center " style="margin-left: -20%">
         <h1>SU</h1>
         <h1>RVI</h1>
         <h1>VE</h1>
       </div>
 
-      <div class="col-sm-12">
-        <p class="text-muted">
+      <div class="col-sm-12" style="padding-left: 13% ; margin-top: 3vh">
+        <p class="text-muted" >
           Pellentesque habitant morbi tristique
           senectus et netus et malesuada fames ac
-          turpis egestas. Vestibulum tortor quam,
-          feugiat vitae, ultricies eget, tempor sit amet,
         </p>
       </div>
 
-      <div class="col-sm-12 row">
-        <span class="col-sm-12 fa fa-facebook" style="font-size: 25px"></span>
-        <span class="col-sm-12 fa fa-youtube" style="font-size: 25px"></span>
-        <span class="col-sm-12 fa fa-twitter" style="font-size: 25px"></span>
+      <div class="col-sm-12 row"  style="padding-left: 22%;margin-top: -15vh ; ">
+        <ul>
+          <li class="col-sm-12 fa fa-facebook" style="margin: 10px 0px; font-size: 20px"></li>
+          <li class="col-sm-12 fa fa-twitter" style="margin: 10px 0px;font-size: 20px"></li>
+          <li class="col-sm-12 fa fa-youtube" style="margin: 10px 0px;font-size: 20px"></li>
+        </ul>
       </div>
 
     </section>
@@ -38,8 +38,8 @@
     <section class="col-sm-1  align-self-center">
       <ul class="row">
         <li class="col-sm-12">01</li>
-        <li class="col-sm-12">02</li>
-        <li class="col-sm-12">03</li>
+        <li class="col-sm-12" style="margin: 10px 50px">02</li>
+        <li class="col-sm-12" style="margin: 10px 50px">03</li>
       </ul>
 
     </section>
@@ -56,7 +56,7 @@ name: "partOne"
 
 <style scoped>
   section:first-child{
-    padding: 0px 2%;
+    padding: 0px 3%;
     height: auto;
 
   }
@@ -78,9 +78,10 @@ name: "partOne"
 
   }
   section:first-child div:nth-child(2) h1{
-    color: red;
+    color: #E4003B;
     font-weight: bolder;
-    font-size: 5rem;
+    font-size: 7rem;
+    margin-top: -40px;
     font-family: 'Teko';
 
   }
@@ -118,21 +119,19 @@ name: "partOne"
   section:last-child ul {
     float: left;
     padding: 20px;
-    /*background-color: #d80f0f;*/
 
   }
   section:last-child ul li{
-    font-family: 'Bebas Neue';
+    font-family: 'Teko';
     font-weight: bolder;
     font-size: 1.5rem;
     list-style-type: none;
-    /*background-color: green;*/
 
   }
 
   section:last-child ul li:first-child{
     font-size: 4rem;
-    border-bottom:3px solid red;
+    border-bottom:3px solid #E4003B;
 
   }
 

@@ -1,6 +1,6 @@
 <template>
   <div id="theNav">
-    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #c2efe7">
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #EDF0F2">
 <!--      <a class="navbar-brand  ml-5" href="#">Adventure</a>-->
       <img class="navbar-brand  ml-5" src="../assets/logo.png" style="width: 200px; height: 80px"/>
 
@@ -20,7 +20,11 @@
           </li>
 
           <li class="nav-item active ml-3">
-            <a class="nav-link" href="#"> | ENG</a>
+            <a class="nav-link" > | </a>
+          </li>
+
+          <li class="nav-item active ml-3">
+            <a class="nav-link" href="#">  ENG</a>
           </li>
 
           <li class="nav-item active ml-3">
@@ -55,7 +59,7 @@ export default {
 <style scoped>
 
     a{
-      font-family: 'Pacifico';
+      font-family: 'Teko';
       font-size: 2rem;
     }
 
@@ -69,7 +73,7 @@ export default {
       font-size: 20px;
     }
     .Search {
-      background-color: #d80f0f;
+      background-color: #E4003B;
       border-radius:50% ;
     }
     .Search a span{
