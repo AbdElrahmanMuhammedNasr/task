@@ -31,7 +31,7 @@ name: "PartFour"
 <style scoped>
 .Main{
   width: 80%;
-  margin: 50px  auto;
+  margin: 100px  auto;
 }
 .Main .Title {
   transform: rotate(-90deg);

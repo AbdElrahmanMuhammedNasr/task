@@ -3,7 +3,7 @@
   <div class="row">
     <section class="col-sm-3  row ">
 
-      <div class="col-sm-8; float:left">
+      <div class="col-sm-8; float:left" style="">
         <p >Find out if you can</p>
       </div>
 

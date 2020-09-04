@@ -5,6 +5,7 @@
     <PartTwo></PartTwo>
     <PartThree></PartThree>
     <PartFour></PartFour>
+    <PartFive></PartFive>
     <PartSix></PartSix>
   </div>
 </template>
@@ -17,6 +18,7 @@ import PartTwo from "@/components/PartTwo";
 import PartThree from "@/components/partThree";
 import PartFour from "@/components/partFour";
 import PartSix from "@/components/partSix";
+import PartFive from "@/components/partFive";
 export default {
   name: 'App',
   components: {
@@ -25,6 +27,7 @@ export default {
     PartTwo,
     PartThree,
     PartFour,
+    PartFive,
     PartSix
   }
 }
