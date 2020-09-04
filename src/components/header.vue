@@ -1,7 +1,8 @@
 <template>
   <div id="theNav">
     <nav class="navbar navbar-expand-lg navbar-light " style="background-color: #c2efe7">
-      <a class="navbar-brand  ml-5" href="#">Adventure</a>
+<!--      <a class="navbar-brand  ml-5" href="#">Adventure</a>-->
+      <img class="navbar-brand  ml-5" src="../assets/logo.png" style="width: 200px; height: 80px"/>
 
       <div class="collapse navbar-collapse" >
         <ul class="navbar-nav ml-auto">
