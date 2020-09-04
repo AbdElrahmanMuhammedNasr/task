@@ -50,12 +50,20 @@ name: "partFive"
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-right: 20px;
+  box-shadow: 0px 0px 20px gray;
+  border-radius:10px ;
+
+
 }
 .Main section:nth-child(2){
   background-image: url("../assets/img-section5-gallery2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin-right: 20px;
+  box-shadow: 0px 0px 20px gray;
+  border-radius:10px ;
+  border-radius:10px ;
+
 
 }
 .Main section:last-child{

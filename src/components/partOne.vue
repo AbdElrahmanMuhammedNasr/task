@@ -7,7 +7,7 @@
         <p >Find out if you can</p>
       </div>
 
-      <div class="col-sm-2 ; float-right">
+      <div class="col-sm-2 ; float-right" style="margin-left: -20%">
         <h1>SU</h1>
         <h1>RVI</h1>
         <h1>VE</h1>
@@ -70,6 +70,7 @@ name: "partOne"
   section:first-child  div:first-child p {
     font-size: 1.5rem;
     font-weight: bolder;
+
   }
   section:first-child div:nth-child(2){
     margin-top: 20% ;
@@ -80,6 +81,7 @@ name: "partOne"
     color: red;
     font-weight: bolder;
     font-size: 5rem;
+    font-family: 'Teko';
 
   }
   section:first-child div:nth-child(3){
@@ -104,6 +106,8 @@ name: "partOne"
   }
   section:nth-child(2) img{
     width: 100%;
+    box-shadow: 0px 0px 20px gray;
+
 
   }
 

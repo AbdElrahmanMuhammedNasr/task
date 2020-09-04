@@ -87,6 +87,7 @@ export default {
     font-size: 3rem;
     font-weight: bolder;
     margin: 30px 0px;
+    font-family: 'Teko';
 }
 .Main section:nth-child(2){
 
@@ -95,11 +96,16 @@ export default {
   width: 400px;
   height: 300px;
   margin-bottom: 20px;
+  box-shadow: 0px 0px 20px gray;
+  border-radius:5px ;
+
+
 }
 /**************************************************************************/
 
 .Main section:nth-child(3) img {
   width: 100%;
+
 }
 
 </style>
