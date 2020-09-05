@@ -23,11 +23,22 @@
     </section>
 
 
-    <section class="col-sm-4" >
-      <img src="../assets/img_shoes.png">
+    <section class="col-sm-4" style="">
+      <div style="text-align: center; position: absolute" >
+        <section class="row justify-content-center" style="padding: 20px">
+          <h3 style="color: #E4003B; font-weight: bolder; font-family: 'Teko'">01</h3>
+          <h1 style=" font-size: 9rem;color: white;margin-top: -10px">ENDUP </h1>
+          <h1 style=" font-size: 9rem;color: white;margin-top: -100px">AKCE</h1>
+        </section>
+
+        <h3 style="color: #E4003B; font-weight: bolder; position:absolute;top: 30%;left: 20% ;font-size: 3rem; transform: rotate(-30deg)">Challenges</h3>
+      </div>
+
+      <div style="position: absolute; top: 15%; ">
+        <img src="../assets/img_shoes.png" style="">
         <h3 style="font-weight: bolder ; margin: 20px 0px ;font-family: 'Bebas Neue'; letter-spacing: 2px">Mission</h3>
 
-      <p style="font-weight: bolder ;">
+        <p style="font-weight: bolder ;">
           commodo vitae, ornare sit amet, wisi. Aenean fermentum,
           elit eget tincidunt condimentum,
         </p>
@@ -42,6 +53,9 @@
             <span class="fa fa-close" style="color: #E4003B; font-size: 40px"></span>
             <span style="font-weight: bolder"> FIND OUT MORE</span>
          </span>
+      </div>
+
+
     </section>
 
   </div>
@@ -94,7 +108,6 @@ export default {
 .Main section:nth-child(2) section div:first-child img{
   width: 25vw;
   height: 30vh;
-  margin-bottom: 20px;
   box-shadow: 0px 0px 20px gray;
   border-radius:5px ;
 
