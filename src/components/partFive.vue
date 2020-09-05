@@ -43,7 +43,7 @@ name: "partFive"
 <style scoped>
 .Main{
   width: 90%;
-  margin: 80px  auto;
+  margin: 10% auto auto auto;
   height:50vh;
 
 }

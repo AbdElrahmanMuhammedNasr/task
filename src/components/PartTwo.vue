@@ -4,7 +4,7 @@
 
     <section class="col-sm-8 row" >
 
-      <section class="row" v-for="challenge in challenges " :key="challenge.id">
+      <section class="row" v-for="challenge in challenges " :key="challenge.id" style="margin-top: 2vh">
         <div class="col-sm-6">
           <img :src="challenge.image">
         </div>
@@ -103,6 +103,7 @@ export default {
     font-family: 'Teko';
 }
 .Main section:nth-child(2){
+
 
 }
 .Main section:nth-child(2) section div:first-child img{

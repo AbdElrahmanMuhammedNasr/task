@@ -70,7 +70,7 @@ name: "PartThree"
 <style scoped>
 .Main{
   width: 80%;
-  margin: 10% auto;
+  margin: 10% auto auto auto;
 }
 .Main section:first-child{
   /*background-color: #E4003B;*/

@@ -52,6 +52,7 @@ name: "partSix"
   background-size: 100% 100%;
   width: 99vw;
   height: 500px;
+  margin-top: 10%;
 }
 .Main section{
   margin-top: 8%;
